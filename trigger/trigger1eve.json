@@ -1,0 +1,18 @@
+{
+	"name": "trigger1eve",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Stopped",
+		"pipelines": [],
+		"type": "BlobEventsTrigger",
+		"typeProperties": {
+			"blobPathBeginsWith": "/bronze/blobs/",
+			"blobPathEndsWith": ".txt",
+			"ignoreEmptyBlobs": true,
+			"scope": "/subscriptions/31e08d80-6ed6-45f4-a33c-0d57f3f4d5ea/resourceGroups/rg-dev-training/providers/Microsoft.Storage/storageAccounts/adfaugblob",
+			"events": [
+				"Microsoft.Storage.BlobCreated"
+			]
+		}
+	}
+}
