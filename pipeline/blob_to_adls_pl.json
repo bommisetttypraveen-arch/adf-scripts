@@ -28,7 +28,7 @@
 								"value": "@pipeline().parameters.endTime",
 								"type": "Expression"
 							},
-							"wildcardFileName": "*",
+							"wildcardFileName": "*.txt",
 							"enablePartitionDiscovery": false
 						},
 						"formatSettings": {
